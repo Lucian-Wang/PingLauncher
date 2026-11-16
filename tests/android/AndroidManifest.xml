@@ -1,0 +1,1 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="wang.lucian.pinglauncher.tests"><uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35"/><application android:label="Ping test"/><instrumentation android:name="wang.lucian.pinglauncher.GestureTest" android:targetPackage="wang.lucian.pinglauncher"/></manifest>

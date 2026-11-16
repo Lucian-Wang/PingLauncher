@@ -1,0 +1,6 @@
+plugins { id 'com.android.application' }
+android { namespace 'wang.lucian.pinglauncher'; compileSdk 35
+ defaultConfig { applicationId 'wang.lucian.pinglauncher'; minSdk 26; targetSdk 35; versionCode = (project.findProperty('VERSION_CODE') ?: '15').toInteger(); versionName = (project.findProperty('VERSION_NAME') ?: '3.12') }
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
